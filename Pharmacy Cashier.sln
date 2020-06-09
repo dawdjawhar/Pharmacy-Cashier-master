@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29123.88
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pharmacy Cashier", "Pharmacy Cashier\Pharmacy Cashier.csproj", "{CCD0C43F-7500-45BE-8B37-4653A6356A57}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CCD0C43F-7500-45BE-8B37-4653A6356A57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCD0C43F-7500-45BE-8B37-4653A6356A57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCD0C43F-7500-45BE-8B37-4653A6356A57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCD0C43F-7500-45BE-8B37-4653A6356A57}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {690E9193-EE51-44E0-B53F-A099B3225C8F}
+	EndGlobalSection
+EndGlobal
