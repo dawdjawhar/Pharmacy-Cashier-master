@@ -13,7 +13,7 @@
                         </div>
                     </a>
                     <div class="case-label ellipsis">
-                        <span class="case-label-text">فرۆشتنی نوێ</span>
+                        <span class="case-label-text">Add Sale</span>
                     </div>
                 </div>
             </div>
@@ -31,7 +31,7 @@
                         </div>
                     </a>
                     <div class="case-label ellipsis">
-                        <span class="case-label-text">پشاندانی فرۆشتن</span>
+                        <span class="case-label-text">Sales list </span>
                     </div>
                 </div>
             </div>
@@ -41,7 +41,7 @@
 
 
 
-            <div class="col-lg-3 col-md-3 col-sm-4 col-4 text-center my-3" id="registerUser" runat="server">
+            <%--<div class="col-lg-3 col-md-3 col-sm-4 col-4 text-center my-3" id="registerUser" runat="server">
                 <div class="case-wrapper" data-name="Item" data-link="List/Item">
                     <a href="Add%20Customers.aspx">
                         <div class="app-icon app-icon-red" title="شوفێرەکان">
@@ -49,7 +49,7 @@
                         </div>
                     </a>
                     <div class="case-label ellipsis">
-                        <span class="case-label-text">زیادکردنی فرۆشیار</span>
+                        <span class="case-label-text"></span>
                     </div>
                 </div>
             </div>
@@ -70,12 +70,13 @@
                         </div>
                     </a>
                     <div class="case-label ellipsis">
-                        <span class="case-label-text">مەخزەن</span>
+                        <span class="case-label-text">inventory</span>
                     </div>
                 </div>
             </div>
 
-            <div class="col-lg-3 col-md-3 col-sm-4 col-4 text-center my-3">
+
+<%--            <div class="col-lg-3 col-md-3 col-sm-4 col-4 text-center my-3">
                 <div class="case-wrapper" data-name="Item" data-link="List/Item" title="">
                     <a href="Admin%20panel/View%20Customers.aspx">
                         <div class="app-icon_dolar app-icon-red-2" title="View Customare">
@@ -86,10 +87,10 @@
                         <span class="case-label-text">پشاندانی فرۆشیار</span>
                     </div>
                 </div>
-            </div>
+            </div>--%>
 
 
-            <div class="col-lg-3 col-md-3 col-sm-4 col-4 text-center my-3">
+<%--            <div class="col-lg-3 col-md-3 col-sm-4 col-4 text-center my-3">
                 <div class="case-wrapper" data-name="Item" data-link="List/Item">
                     <a href="Admin%20panel/Purchase.aspx">
                         <div class="app-icon app-icon-ogrange-1" title="Purchase">
@@ -100,9 +101,10 @@
                         <span class="case-label-text">کڕین</span>
                     </div>
                 </div>
-            </div>
+            </div>--%>
 
-            <div class="col-lg-3 col-md-3 col-sm-4 col-4 text-center my-3" id="purchaseShow" runat="server">
+
+<%--            <div class="col-lg-3 col-md-3 col-sm-4 col-4 text-center my-3" id="purchaseShow" runat="server">
                 <div class="case-wrapper" data-name="Item" data-link="List/Item" title="Item">
                     <a href="Admin panel/Purchase list.aspx">
                         <div class="app-icon app-icon-purple" title="Show all Purhase">
@@ -113,11 +115,11 @@
                         <span class="case-label-text">پشاندانی کرین</span>
                     </div>
                 </div>
-            </div>
+            </div>--%>
 
             <%-- Purchase list --%>
 
-            <div class="col-lg-3 col-md-3 col-sm-4 col-4 text-center my-3">
+           <%-- <div class="col-lg-3 col-md-3 col-sm-4 col-4 text-center my-3">
                 <div class="case-wrapper" data-name="Item" data-link="List/Item" title="Add Supplier">
                     <a href="Admin panel/Add supplier.aspx">
                         <div class="app-icon app-icon-brown" title="Add Supplier">
@@ -128,9 +130,9 @@
                         <span class="case-label-text">زیادکردنی کریار</span>
                     </div>
                 </div>
-            </div>
+            </div>--%>
 
-            <div class="col-lg-3 col-md-3 col-sm-4 col-4 text-center my-3">
+           <%-- <div class="col-lg-3 col-md-3 col-sm-4 col-4 text-center my-3">
                 <div class="case-wrapper" data-name="Item" data-link="List/Item" title="زیاد کردنی بینایە">
                     <a href="Admin%20panel/Show%20Payment.aspx">
                         <div class="app-icon app-icon-green-2 " title="View Suppliers">
@@ -141,7 +143,7 @@
                         <span class="case-label-text">پشاندانی پارە واسلکراو</span>
                     </div>
                 </div>
-            </div>
+            </div>--%>
             <%-- Add Building --%>
         </div>
     </div>
