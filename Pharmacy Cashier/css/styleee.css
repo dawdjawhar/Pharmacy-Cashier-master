@@ -1,0 +1,688 @@
+#body_LR{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(235, 231, 231);
+    height: 100vh;
+    width: 100%;
+}
+
+.unpaid {
+    color: red !important;
+    text-shadow: .5px 1px 3px rgb(240,10,10) !important;
+}
+
+.paid {
+    color: green;
+    text-shadow: .5px 1px 3px rgb(5,240,10);
+}
+
+.mt-6 {
+    margin-top: 2.2rem !important;
+}
+
+.fs-1 {
+    font-size: 8px !important;
+}
+
+.fs-2 {
+    font-size: 12px !important;
+       
+}
+
+
+.fs-3 {
+    font-size: 16px !important;
+}
+
+.fs-4 {
+    font-size: 20px !important;
+    padding-top: 7px !important;
+    padding-bottom: 7px !important;
+}
+
+@media (max-width: 376px) 
+{
+    .btn-sm{
+        padding : 8px 5px !important;
+        border-radius:4px;
+    }
+}
+.styleK {
+    font-family: 'DroidArabicNaskhRegular' !important;
+    font-weight: 600 !important;
+}
+.invois_multK{
+    padding-top:0;
+    padding-bottom:0;
+}
+.User_header_style {
+    display: inline-block;
+}
+#body_newcus {
+    padding: 0;
+    margin: 0;
+    background-color: white;
+    height: 100vh;
+    width: 100%;
+}
+.text-white-70{
+    color: whitesmoke;
+}
+.main .home_icon {
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    color: whitesmoke;
+}
+
+.btn-save-style{
+    font-weight:700;
+}
+
+#header_text h4 {
+    color: black;
+    font-size:20px;
+}
+/* Container style */
+.containerd {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+
+}
+
+/*@media (min-width: 768px) {
+    .containerd {
+        width: 750px !important;
+    }
+}
+
+@media (min-width: 992px) {
+    .containerd {
+        width: 970px !important;
+    }
+    
+}
+
+@media (min-width: 1200px) {
+    .containerd {
+        width: 1170px !important;
+    }
+}*/
+
+.text-center{
+    text-align: center;
+}
+.case-wrapper{
+    position: relative;
+    margin: 0px;
+    float: left;
+    width: 138px;
+    height: 140px;
+}
+.app-icon{    
+    padding: 30px;
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+    border-radius: 16px;
+    cursor: pointer;
+    
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+.app-icon_img {
+    padding: 16px 0px;
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+    border-radius: 16px;
+    cursor: pointer;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+.app-icon_dolar {
+    padding: 21px 35px;
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+    border-radius: 16px;
+    cursor: pointer;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.15);
+}
+.app-icon-ogrange{
+    background-color: #f3cc12;
+}
+
+.app-icon-ogrange-1 {
+    background-color: #f3cc12;
+}
+.app-icon-green{
+    background-color: #589494;
+}
+
+
+
+.app-icon-Cyan {
+    background-color: #26C6DA;
+}
+.style_dropdown {
+   padding-top: 0 !important;
+   padding-bottom: 0 !important;
+   font-size: 16px !important;
+}
+
+.app-icon-pink {
+    background-color: #F8DBD0;
+}
+
+
+
+.app-icon-green-2 {
+    background-color: #03DAC6;
+}
+
+.app-icon-green-3 {
+    background-color: #4caf50;
+}
+
+.app-icon-yellow {
+    background-color: #FFF5A7;
+}
+.app-icon-red{
+    background-color: #C0392B;
+}
+.app-icon-red-2 {
+    background-color: #ec407a;
+}
+
+.app-icon-red-3{
+    background-color: #e65100;
+}
+
+
+.app-icon-grelight {
+    background-color: #7F8C8D;
+}
+
+.app-icon-purple{
+    background-color: #8E44AD;
+}
+.app-icon-purple-2 {
+    background-color: #7C4DFF;
+}
+
+
+.app-icon-brown {
+    background-color: #757575;
+}
+.app-icon-brown-1 {
+    background-color: #8d6e63;
+}
+
+.app-icon-bluelight {
+    background-color: #4AA3DF;
+}
+
+.app-icon-bluelight-2 {
+    background-color: #6200EE;
+}
+
+
+
+
+.app-icon-purplelisht {
+    background-color: #7574FF;
+}
+
+
+.app-icon i{
+
+    text-decoration:none;
+    text-decoration-color:none;
+    
+}
+
+.ellipsis{
+    white-space: nowrap;
+    
+    text-overflow: ellipsis;
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+.case-label{
+    font-size: 15px;
+    /*font-weight: bold;*/
+    letter-spacing: 0px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-top: 10px;
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5), 0px 1px 5px rgba(0, 0, 0, 0.5);
+}
+.fas{
+    color: red !important;
+}
+
+.fa-plus {
+    font-size: 40px;
+    color: white;
+    transition: all .3s;
+    animation: moveInLeft-icon 1s ease-out;
+}
+.fa-plus:hover {
+    color: rgb(73, 73, 78);
+    transform: scale(1.2);
+}
+
+.fa-bell {
+    font-size: 40px;
+    color: white;
+    transition: all .3s;
+    animation: moveInLeft-icon 1s ease-out;
+}
+
+.fa-bell:hover {
+    color: rgb(73, 73, 78);
+    transform: scale(1.2);
+}
+
+
+
+
+
+.fa-search-plus {
+    font-size: 40px;
+    color: white;
+    transition: all .3s;
+    animation: moveInLeft-icon 1s ease-out;
+}
+
+.fa-search-plus:hover {
+    color: rgb(73, 73, 78);
+    transform: scale(1.2);
+}
+
+.fa-searchengin {
+    font-size: 40px;
+    color: white;
+    transition: all .3s;
+    animation: moveInLeft-icon 1s ease-out;
+}
+
+.fa-searchengin:hover {
+    color: rgb(73, 73, 78);
+    transform: scale(1.2);
+}
+
+
+
+.fa-sign-out-alt {
+    font-size: 40px;
+    color: white;
+    transition: all .3s;
+    animation: moveInLeft-icon 1s ease-out;
+}
+
+    .fa-sign-out-alt:hover {
+        color: rgb(73, 73, 78);
+        transform: scale(1.2);
+    }
+
+
+.fa-building {
+    font-size: 40px;
+    color: white;
+    transition: all .3s;
+    animation: moveInLeft-icon 1s ease-out;
+}
+
+.fa-building:hover {
+    color: rgb(73, 73, 78);
+    transform: scale(1.2);
+}
+
+.fa-building {
+    font-size: 40px;
+    color: white;
+    transition: all .3s;
+    animation: moveInLeft-icon 1s ease-out;
+}
+
+.fa-building:hover {
+    color: rgb(73, 73, 78);
+    transform: scale(1.2);
+}
+
+.fa-hospital-alt {
+    font-size: 40px;
+    color: white;
+    transition: all .3s;
+    animation: moveInLeft-icon 1s ease-out;
+}
+
+.fa-hospital-alt:hover {
+    color: rgb(73, 73, 78);
+    transform: scale(1.2);
+}
+
+
+
+.fa-utensils {
+    font-size: 40px;
+    color: white;
+    transition: all .3s;
+    animation: moveInLeft-icon 1s ease-out;
+}
+    .fa-utensils:hover {
+        color: rgb(73, 73, 78);
+        transform: scale(1.2);
+    }
+
+.fa-user {
+    font-size: 40px;
+    color: white;
+    transition: all .3s;
+    animation: moveInLeft-icon 1s ease-out;
+}
+.fa-user:hover {
+    color: rgb(73, 73, 78);
+    transform: scale(1.2);
+}
+
+.fa-home {
+    font-size: 32px;
+    color: black;
+    
+}
+.ani{
+    transition: all .3s;
+    animation: moveInLeft-icon 1s ease-out;
+}
+.ani:hover {
+    color: rgb(73, 73, 78);
+    transform: scale(1.2);
+}
+
+
+.fa-shopping-cart {
+    font-size: 32px;
+    color: white;
+    transition: all .3s;
+    animation: moveInLeft-icon 1s ease-out;
+}
+
+    .fa-shopping-cart:hover {
+        color: rgb(73, 73, 78);
+        transform: scale(1.2);
+    }
+
+
+.fa-user-plus {
+    font-size: 32px;
+    color: white;
+    transition: all .3s;
+    animation: moveInLeft-icon 1s ease-out;
+}
+.fa-user-plus:hover {
+    color: rgb(73, 73, 78);
+    transform: scale(1.2);
+}
+
+
+.fa-money-check-alt {
+    font-size: 32px;
+    color: white;
+    transition: all .3s;
+    animation: moveInLeft-icon 1s ease-out;
+}
+
+.fa-money-check-alt:hover {
+    color: rgb(73, 73, 78);
+    transform: scale(1.2);
+}
+
+.fa-smile {
+    font-size: 32px;
+    color: white;
+    transition: all .3s;
+    animation: moveInLeft-icon 1s ease-out;
+}
+
+.fa-smile:hover {
+    color: rgb(73, 73, 78);
+    transform: scale(1.2);
+}
+
+
+
+
+
+.fa-surprise {
+    font-size: 32px;
+    color: white;
+    transition: all .3s;
+    animation: moveInLeft-icon 1s ease-out;
+}
+
+.fa-surprise:hover {
+    color: rgb(73, 73, 78);
+    transform: scale(1.2);
+}
+
+
+
+
+
+.fa-hand-scissors {
+    font-size: 2.6rem;
+    color: white;
+    transition: all .3s;
+    animation: moveInLeft-icon 1s ease-out;
+}
+
+.fa-hand-scissors:hover {
+        color: rgb(73, 73, 78);
+        transform: scale(1.2);
+}
+
+.fa-dollar-sign {
+    font-size: 3.6rem;
+    color: white;
+    transition: all .3s;
+    animation: moveInLeft-icon 1s ease-out;
+}
+.fa-dollar-sign:hover {
+    color: rgb(73, 73, 78);
+    transform: scale(1.2);
+}
+
+.fa-store-alt {
+    font-size: 40px;
+    color: white;
+    transition: all .3s;
+    animation: moveInLeft-icon 1s ease-out;
+}
+    .fa-store-alt:hover {
+        color: rgb(73, 73, 78);
+        transform: scale(1.2);
+    }
+
+
+.fa-eye {
+    font-size: 36px;
+    color: white;
+    transition: all .3s;
+    animation: moveInLeft-icon 1s ease-out;
+}
+
+.fa-eye:hover {
+    color: rgb(73, 73, 78);
+    transform: scale(1.2);
+}
+
+.fa-desktop {
+    font-size: 36px;
+    color: white;
+    transition: all .3s;
+    animation: moveInLeft-icon 1s ease-out;
+}
+
+    .fa-desktop:hover {
+        color: rgb(73, 73, 78);
+        transform: scale(1.2);
+    }
+
+.fa-grin-stars {
+    font-size: 36px;
+    color: white;
+    transition: all .3s;
+    animation: moveInLeft-icon 1s ease-out;
+}
+
+.fa-grin-stars:hover {
+    color: rgb(73, 73, 78);
+    transform: scale(1.2);
+}
+
+
+
+.fa-warehouse {
+    font-size: 36px;
+    color: white;
+    transition: all .3s;
+    animation: moveInLeft-icon 1s ease-out;
+}
+
+.fa-warehouse:hover {
+    color: rgb(73, 73, 78);
+    transform: scale(1.2);
+}
+
+
+
+.fa-star {
+    font-size: 36px;
+    color: white;
+    transition: all .3s;
+    animation: moveInLeft-icon 1s ease-out;
+}
+
+    .fa-star:hover {
+        color: rgb(73, 73, 78);
+        transform: scale(1.2);
+    }
+
+
+.fa-folder-plus{
+    font-size: 36px;
+    color: white;
+    transition: all .3s;
+    animation: moveInLeft-icon 1s ease-out;
+}
+
+
+.fa-folder-plus:hover {
+    color: rgb(73, 73, 78);
+    transform: scale(1.2);
+}
+
+.fa-calendar-plus {
+    font-size: 36px;
+    color: white;
+    transition: all .3s;
+    animation: moveInLeft-icon 1s ease-out;
+}
+.fa-calendar-plus:hover {
+    color: rgb(73, 73, 78);
+    transform: scale(1.2);
+}
+
+
+
+
+.fa-sticky-note {
+    font-size: 36px;
+    color: black;
+}
+
+
+.fa-trash {
+    font-size: 36px;
+    color: white;
+    transition: all .3s;
+    animation: moveInLeft-icon 1s ease-out;
+}
+
+.fa-trash:hover {
+    color: rgb(73, 73, 78);
+    transform: scale(1.2);
+}
+
+
+
+
+
+.fa-exchange-alt {
+    font-size: 40px;
+    color: white;
+    transition: all .3s;
+    animation: moveInLeft-icon 1s ease-out;
+}
+
+    .fa-exchange-alt:hover {
+        color: rgb(73, 73, 78);
+        transform: scale(1.2);
+    }
+
+
+.fa-cart-plus {
+    font-size: 32px;
+    color: white;
+    transition: all .3s;
+    animation: moveInLeft-icon 1s ease-out;
+}
+
+.fa-cart-plus:hover {
+    color: rgb(73, 73, 78);
+    transform: scale(1.2);
+}
+
+
+.imgpayment img {
+    width: 50px;
+    height: 50px;
+    transition: all .3s;
+    animation: moveInLeft-icon 1s ease-out;
+}
+
+.imgpayment img:hover {
+    transform:scale(1.2);
+}
+.app-img {
+    width: 98px;
+    height: 98px;
+}
+
+@keyframes moveInLeft-icon {
+    0% {
+        opacity: 0;
+        transform: translateX(-2rem);
+    }
+
+    80% {
+        transform: translateX(1rem);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+
+.selectt{
+    padding-top:2px !important;
+    padding-bottom:2px !important;
+}
